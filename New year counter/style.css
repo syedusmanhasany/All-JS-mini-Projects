@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: slateblue;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+}
+
+h1{
+    color: white;
+    box-shadow: 4px 4px 50px;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+#currentYear{
+    margin: 50px 0px;
+    font-size: 40px;
+    color:chartreuse    ;
+}
+.countdown{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 35px;
+    color: white;
+    box-shadow: 4px 4px 20px;
+    width: 100%;
+    padding: 0px 40px;
+    height: 50px;
+}
+
