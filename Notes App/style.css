@@ -1,0 +1,131 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 5px;
+    background-color: #0D1164;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    padding: 10px;
+    background-color: #FF9B00;
+    width: 400px;
+    height: 300px;
+    position: relative;
+    border-radius: 10px;
+    overflow-y: auto;
+
+}
+.container h1{
+    font-size: 20px;
+    border-bottom: 1px dotted black;
+    padding-bottom: 5px;
+    margin-bottom: 2px;
+}
+.lists ul li{
+    list-style-type: none;
+    background-color: #F97A00;   
+    margin: 8px 0px;
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 6;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    word-break: break-all;
+    font-weight: bolder;
+}
+.lists ul li:hover{
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, .6);
+    cursor: pointer;
+}
+.edit{
+    color: white;
+    cursor: pointer;
+    transition: .2s all ease-in-out;
+}
+
+.bin{
+    color: maroon;
+    cursor: pointer;
+    margin-left: 4px;
+    transition: .2s all ease-in-out;
+}
+.edit:hover, .bin:hover{
+    transform: scale(1.2)
+}
+
+.btn{
+    position: sticky;
+    text-align: right;
+    z-index: 10;
+}
+#add{
+    padding: 5px 10px;
+    font-size: 25px;
+    color: #78C841;
+
+}
+
+.secContainer{
+    width: 400px;
+    height: 300px;
+    background-color: #F97A00;
+    
+}
+.inputs{
+    padding: 10px;
+    height: 100%;
+}
+.inputs #heading, #notes{
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 6px;
+    outline: none;
+}
+#notes{
+    resize: none;
+    height: 70%;
+}
+
+#done{
+    width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    color: #325819;
+    border: none;
+    border: 1px solid black;
+}
+#done:hover{
+    filter: brightness(.9);
+}
+
+
+.buttons{
+        width: 100%;
+    padding: 5px;
+    font-size: 20px;
+    color: #325819;
+    border: none;
+    border: 1px solid black;
+}
+
+
+
+
+
+
+
+
+
+
+.display{
+    display: none;
+}
